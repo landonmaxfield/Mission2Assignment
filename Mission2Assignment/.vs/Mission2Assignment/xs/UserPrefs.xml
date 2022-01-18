@@ -1,9 +1,8 @@
-﻿<Properties StartupConfiguration="{0C83259B-6658-442A-986E-35D7DEDB59AD}|MyFirstASPWebApp">
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/fanmail.js">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{0C83259B-6658-442A-986E-35D7DEDB59AD}|MyFirstASPWebApp">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="wwwroot/index.html" Line="33" Column="23" />
-      <File FileName="wwwroot/css/default.scss" Line="1" Column="1" />
-      <File FileName="wwwroot/js/fanmail.js" Line="1" Column="1" />
+      <File FileName="wwwroot/js/grade.js" Line="48" Column="23" />
+      <File FileName="wwwroot/index.html" Line="35" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,15 +13,17 @@
                 <Node name="css" expanded="True" />
                 <Node name="img" expanded="True" />
                 <Node name="js" expanded="True">
-                  <Node name="fanmail.js" selected="True" />
+                  <Node name="grade.js" selected="True" />
+                </Node>
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="css" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -1,5 +1,13 @@
 ﻿$("#btnsend").click(function () {
-     finalgrade = (($("#txtassignment").val() * .55) + ($("txtproject").val() *.05) + ($("txtquizzes").val() * .1) + ($("txtexams").val()*.2) + ($("txtintex").val() *.1)) 
+    let assignments = $("#txtAssignment").val();
+    let projects = $("txtproject").val();
+    let quizzes = $("txtquizzes").val();
+    let exams = $("txtexams").val();
+    let intex = $("txtintex").val();
+
+    finalgrade = (parseFloat(assignments) * .55) + (parseFloat(projects) * .05) + (parseFloat(quizzes) * .1) + (parseFloat(exams) * .2) + (parseFloat(intex) * .1)) 
+
+   
     if (finalgrade >= 94) {
         lettergrade = "A"
     }
