@@ -1,0 +1,37 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{0C83259B-6658-442A-986E-35D7DEDB59AD}|MyFirstASPWebApp">
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/grade.js">
+    <Files>
+      <File FileName="Controllers/BlahController.cs" Line="11" Column="2" />
+      <File FileName="wwwroot/js/grade.js" Line="12" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission3Assignment" expanded="True">
+            <Node name="Mission3Assignment" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Blah" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="grade.js" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Mission3Assignment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

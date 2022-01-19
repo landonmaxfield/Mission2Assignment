@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/css/bootstrap.rtl.css" />
+    <link href="~/css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="Grades">Grades</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        This is the footer
+    </footer>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/js/grade.js"></script>
+</body>
+</html>
