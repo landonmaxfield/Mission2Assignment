@@ -1,51 +1,54 @@
 ﻿$("#btnsend").click(function () {
+
     let assignments = $("#txtAssignment").val();
     let projects = $("txtproject").val();
     let quizzes = $("txtquizzes").val();
     let exams = $("txtexams").val();
     let intex = $("txtintex").val();
 
-    finalgrade = (parseFloat(assignments) * .55) + (parseFloat(projects) * .05) + (parseFloat(quizzes) * .1) + (parseFloat(exams) * .2) + (parseFloat(intex) * .1)) 
+    finalgrade = (parseFloat(assignments) * .55) + (parseFloat(projects) * .05) + (parseFloat(quizzes) * 0.1) + (parseFloat(exams) * 0.2) + (parseFloat(intex) * 0.1) 
 
    
-    if (finalgrade >= 94) {
-        lettergrade = "A"
+    if (finalgrade <= 100 && finalgrade >= 94) {
+        grades = "A";
     }
-    else if (94 > finalgrade >= 90) {
-        lettergrade = "A-"
+    else if (finalgrade < 94 && finalgrade >= 90) {
+        grades = "A-";
     }
-    else if (90 > finalgrade >= 87) {
-        lettergrade = "B+"
+    else if (finalgrade < 90 && finalgrade >= 87) {
+        grades = "B+";
     }
-    else if (87 > finalgrade >= 84) {
-        lettergrade = "B"
+    else if (finalgrade < 87 && finalgrade >= 84) {
+        grades = "B";
     }
-    else if (84 > finalgrade >= 80) {
-        lettergrade = "B-"
+    else if (finalgrade < 84 && finalgrade >= 80) {
+        grades = "B-";
     }
-    else if (80 > finalgrade >= 77) {
-        lettergrade = "C+"
+    else if (finalgrade < 80 && finalgrade >= 77) {
+        grades = "C+";
     }
-    else if (77 > finalgrade >= 74) {
-        lettergrade = "C"
+    else if (finalgrade < 77 && finalgrade >= 74) {
+        grades = "C";
     }
-    else if (74 > finalgrade >= 70) {
-        lettergrade = "C-"
+    else if (finalgrade < 74 && finalgrade >= 70) {
+        grades = "C-";
     }
-    else if (70 > finalgrade >= 67) {
-        lettergrade = "D+"
+    else if (finalgrade < 70 && finalgrade >= 67) {
+        grades = "D+";
     }
-    else if (67 > finalgrade >= 64) {
-        lettergrade = "D"
+    else if (finalgrade < 67 && finalgrade >= 64) {
+        grades = "D";
     }
-    else if (64 > finalgrade >= 60) {
-        lettergrade = "D-"
+    else if (finalgrade < 64 && finalgrade >= 60) {
+        grades = "D-";
     }
     else {
-        lettergrade = "E"
+        grades = "F";
     }
 
-    alert("Grade: " + finalgrade + "  " + lettergrade)
+    alert("Grade: " + finalgrade + "  " + grades)
 
-    $("#picTrack").fadeOut("slow");
+    
+
+   //$("#picTrack").fadeOut("slow");
 })

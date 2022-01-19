@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Landon/Documents/GitHub/Mission2Assignment/Mission2Assignment/Mission2Assignment.csproj",
-      "projectName": "Mission2Assignment",
-      "projectPath": "/Users/Landon/Documents/GitHub/Mission2Assignment/Mission2Assignment/Mission2Assignment.csproj",
+      "projectUniqueName": "/Users/Landon/Documents/GitHub/Mission2Assignment/Mission2Assignment/Mission3Assignment.csproj",
+      "projectName": "Mission3Assignment",
+      "projectPath": "/Users/Landon/Documents/GitHub/Mission2Assignment/Mission2Assignment/Mission3Assignment.csproj",
       "packagesPath": "/Users/Landon/.nuget/packages/",
       "outputPath": "/Users/Landon/Documents/GitHub/Mission2Assignment/Mission2Assignment/obj/",
       "projectStyle": "PackageReference",
