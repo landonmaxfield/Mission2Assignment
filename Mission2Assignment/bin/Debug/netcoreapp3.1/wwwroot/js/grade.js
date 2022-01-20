@@ -1,14 +1,14 @@
 ﻿$("#btnsend").click(function () {
 
-    let assignments = $("#txtAssignment").val();
-    let projects = $("txtproject").val();
-    let quizzes = $("txtquizzes").val();
-    let exams = $("txtexams").val();
-    let intex = $("txtintex").val();
+    let assignments = $("assignment").val();
+    let projects = $("project").val();
+    let quizzes = $("quiz").val();
+    let exams = $("exam").val();
+    let intex = $("intex").val();
 
-    finalgrade = (parseFloat(assignments) * .55) + (parseFloat(projects) * .05) + (parseFloat(quizzes) * 0.1) + (parseFloat(exams) * 0.2) + (parseFloat(intex) * 0.1) 
+    let finalgrade = (assignments * .55) + (projects * .05) + (quizzes * 0.1) + (exams * 0.2) + (intex * 0.1); 
 
-   
+
     if (finalgrade <= 100 && finalgrade >= 94) {
         grades = "A";
     }
@@ -46,7 +46,7 @@
         grades = "F";
     }
 
-    alert("Grade: " + finalgrade + "  " + grades)
+    alert("Grade: " + finalgrade + " and letter grade: " + grades)
 
     
 
